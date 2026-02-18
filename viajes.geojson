@@ -92,6 +92,52 @@
         "origen": "Estella",
         "destino": "Sangüesa"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.614076,
+            42.8230299
+          ],
+          [
+            -1.6053391,
+            42.063972
+          ]
+        ]
+      },
+      "properties": {
+        "viaje_id": "f8d67344ff",
+        "fecha": "2025-02-28",
+        "hora": "12:00:00",
+        "origen": "Burlada",
+        "destino": "Tudela"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.6440089,
+            42.8181992
+          ],
+          [
+            -1.6440089,
+            42.8181992
+          ]
+        ]
+      },
+      "properties": {
+        "viaje_id": "a03419d127",
+        "fecha": "2025-03-01",
+        "hora": "09:00:00",
+        "origen": "Pamplona",
+        "destino": "Pamplona"
+      }
     }
   ]
 }
