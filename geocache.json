@@ -44,5 +44,15 @@
     "lat": 43.2471212,
     "lon": -1.7043191,
     "display_name": "Lesaka, Baztan-Bidasoa, Navarra, Navarra / Nafarroa, España"
+  },
+  "buñuel": {
+    "lat": 41.9797495,
+    "lon": -1.444881,
+    "display_name": "Buñuel, Navarra, Navarra / Nafarroa, 31540, España"
+  },
+  "mendavia": {
+    "lat": 42.4443874,
+    "lon": -2.2002884,
+    "display_name": "Mendavia, Estellerria, Navarra, Navarra / Nafarroa, 31587, España"
   }
 }
