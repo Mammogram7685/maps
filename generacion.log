@@ -86,3 +86,6 @@
 [2026-02-18 12:54:13] Descartado (no geocodifica stop). viaje_id=8e77ef77d2 stop='nan' stops=['Pamplona', 'nan', 'nan', 'Pamplona']
 [2026-02-18 12:54:13] Descartado (no geocodifica stop). viaje_id=5d032fe5d1 stop='nan' stops=['Burlada', 'nan', 'nan', 'Pamplona']
 [2026-02-18 12:54:13] Generado viajes.geojson: features=0 descartados=7
+[2026-02-18 12:54:15] Publicado en GitHub (push OK)
+[2026-02-18 12:58:41] Descartado (caducado). Id=5 fecha=2025-02-28 salida=12:00
+[2026-02-18 12:58:43] Generado viajes.geojson: features=6 descartados=1
