@@ -54,5 +54,10 @@
     "lat": 42.4443874,
     "lon": -2.2002884,
     "display_name": "Mendavia, Estellerria, Navarra, Navarra / Nafarroa, 31587, España"
+  },
+  "logroño": {
+    "lat": 42.4661196,
+    "lon": -2.4396676,
+    "display_name": "Logroño, La Rioja, España"
   }
 }
