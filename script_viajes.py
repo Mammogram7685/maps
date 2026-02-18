@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[3]:
+# In[5]:
 
 
 import json
@@ -18,7 +18,7 @@ import requests
 
 
 
-# In[4]:
+# In[8]:
 
 
 # ========= TZ =========
@@ -48,7 +48,10 @@ PARADA1_COL = "Parada1"
 PARADA2_COL = "Parada2"
 
 
-# In[1]:
+CSV_PATH = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQCgW2AsouOAq3YY65x7sHMtdursK_BhnZ3g4AD0DaCZ_NJ2DWsotnKr4YBXyiIrT-4K5eWzSnvHtRY/pub?output=csv"
+
+
+# In[10]:
 
 
 # ========= UTIL =========
@@ -57,6 +60,16 @@ def log(msg: str) -> None:
     LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
     with LOG_PATH.open("a", encoding="utf-8") as f:
         f.write(f"[{ts}] {msg}\n")
+
+def get_text(row, col) -> str:
+    v = row.get(col, "")
+    if pd.isna(v):
+        return ""
+    s = str(v).strip()
+    # protege también si ya viene como "nan"
+    if s.lower() == "nan":
+        return ""
+    return s
 
 
 def load_cache() -> dict:
