@@ -2,8 +2,7 @@ name: Generar GeoJSON de viajes
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "*/30 * * * *"   # cada 30 min (UTC)
+
 
 permissions:
   contents: write
