@@ -80,16 +80,6 @@ def log(msg: str) -> None:
     with LOG_PATH.open("a", encoding="utf-8") as f:
         f.write(f"[{ts}] {msg}\n")
 
-def get_text(row, col) -> str:
-    v = row.get(col, "")
-    if pd.isna(v):
-        return ""
-    s = str(v).strip()
-    # protege también si ya viene como "nan"
-    if s.lower() == "nan":
-        return ""
-    return s
-
 
 def load_cache() -> dict:
     if CACHE_PATH.exists():
