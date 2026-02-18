@@ -111,3 +111,11 @@
 [2026-02-18 15:56:33] Descartado (no geocodifica stop). viaje_id=66369D9D stop='nan' stops=['Olite', 'Pamplona', 'nan', 'Goizueta']
 [2026-02-18 15:56:33] Generado viajes.geojson: features=1 descartados=6
 [2026-02-18 15:56:34] Publicado en GitHub (push OK)
+[2026-02-18 16:06:48] Descartado (no geocodifica stop). viaje_id=C49EB15C stop='nan' stops=['Pamplona', 'nan', 'nan', 'Estella']
+[2026-02-18 16:06:49] Descartado (no geocodifica stop). viaje_id=C49EB133 stop='nan' stops=['Pamplona', 'nan', 'nan', 'Tudela']
+[2026-02-18 16:06:49] Descartado (no geocodifica stop). viaje_id=36E34462 stop='nan' stops=['Pamplona', 'nan', 'nan', 'Olite']
+[2026-02-18 16:06:49] Descartado (no geocodifica stop). viaje_id=36E9E963 stop='nan' stops=['Tudela', 'nan', 'nan', 'Estella']
+[2026-02-18 16:06:49] Descartado (no geocodifica stop). viaje_id=B1AAE26E stop='nan' stops=['Estella', 'nan', 'nan', 'Sangüesa']
+[2026-02-18 16:06:49] Descartado (no geocodifica stop). viaje_id=66369D9D stop='nan' stops=['Olite', 'Pamplona', 'nan', 'Goizueta']
+[2026-02-18 16:06:49] Generado viajes.geojson: features=1 descartados=6
+[2026-02-18 16:06:49] Publicado en GitHub (push OK)
