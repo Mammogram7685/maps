@@ -46,6 +46,52 @@
         "origen": "Pamplona",
         "destino": "Cascante"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.6440089,
+            42.8181992
+          ],
+          [
+            -1.6744823,
+            42.5278279
+          ]
+        ]
+      },
+      "properties": {
+        "viaje_id": "ab4b98ea63",
+        "fecha": "2027-02-21",
+        "hora": "10:00:00",
+        "origen": "Pamplona",
+        "destino": "Tafalla"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.0314834,
+            42.672094
+          ],
+          [
+            -1.283336,
+            42.5754899
+          ]
+        ]
+      },
+      "properties": {
+        "viaje_id": "2b55da53d8",
+        "fecha": "2028-02-25",
+        "hora": "10:00:00",
+        "origen": "Estella",
+        "destino": "Sangüesa"
+      }
     }
   ]
 }

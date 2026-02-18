@@ -13,5 +13,20 @@
     "lat": 41.9993288,
     "lon": -1.6786611,
     "display_name": "Cascante, Navarra, Navarra / Nafarroa, 31520, España"
+  },
+  "tafalla": {
+    "lat": 42.5278279,
+    "lon": -1.6744823,
+    "display_name": "Tafalla, Erdialdea, Navarra, Navarra / Nafarroa, 31300, España"
+  },
+  "sangüesa": {
+    "lat": 42.5754899,
+    "lon": -1.283336,
+    "display_name": "Sangüesa / Zangoza, Zangozerria, Navarra, Navarra / Nafarroa, España"
+  },
+  "estella": {
+    "lat": 42.672094,
+    "lon": -2.0314834,
+    "display_name": "Estella-Lizarra, Estellerria, Navarra, Navarra / Nafarroa, 31200, España"
   }
 }
