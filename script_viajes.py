@@ -263,14 +263,17 @@ def main():
             log(f"Descartado (sin origen). Id={row.get('Id')} destino='{destino}'")
             continue
 
-        fecha_iso    = parse_fecha(row.get(FECHA_COL))
-        hora_salida  = parse_hora(row.get(SALIDA_COL))
-        hora_llegada = parse_hora(row.get(LLEGADA_COL))
+        destino = get_text(row, DESTINO_COL)
+        origen  = get_text(row, ORIGEN_COL)
+        p1      = get_text(row, PARADA1_COL)
+        p2      = get_text(row, PARADA2_COL)
+
 
         if not viaje_vigente(fecha_iso, hora_salida):
             descartados += 1
             log(f"Descartado (caducado). Id={row.get('Id')} fecha={fecha_iso} salida={hora_salida}")
             continue
+        stops_txt = [s for s in stops_txt if s and s.strip() and s.strip().lower() != "nan"]
 
         stops_txt = [origen]
         if p1:
