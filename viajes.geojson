@@ -1,5 +1,51 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.6053391,
+            42.063972
+          ],
+          [
+            -1.6440089,
+            42.8181992
+          ]
+        ]
+      },
+      "properties": {
+        "viaje_id": "10d0440a3e",
+        "fecha": "2026-02-18",
+        "hora": "09:20",
+        "origen": "Tudela",
+        "destino": "Pamplona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.6440089,
+            42.8181992
+          ],
+          [
+            -1.6786611,
+            41.9993288
+          ]
+        ]
+      },
+      "properties": {
+        "viaje_id": "031d01fc5e",
+        "fecha": "2026-02-18",
+        "hora": "15:00",
+        "origen": "Pamplona",
+        "destino": "Cascante"
+      }
+    }
+  ]
 }
-

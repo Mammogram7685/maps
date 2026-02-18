@@ -1,2 +1,17 @@
-{}
-
+{
+  "pamplona": {
+    "lat": 42.8181992,
+    "lon": -1.6440089,
+    "display_name": "Pamplona / Iruña, Iruñerria, Navarra, Navarra / Nafarroa, España"
+  },
+  "tudela": {
+    "lat": 42.063972,
+    "lon": -1.6053391,
+    "display_name": "Tudela, Navarra, Navarra / Nafarroa, 31500, España"
+  },
+  "cascante": {
+    "lat": 41.9993288,
+    "lon": -1.6786611,
+    "display_name": "Cascante, Navarra, Navarra / Nafarroa, 31520, España"
+  }
+}
