@@ -64,5 +64,10 @@
     "lat": 42.5989995,
     "lon": -5.5682413,
     "display_name": "León, Castilla y León, España"
+  },
+  "villava": {
+    "lat": 42.8318984,
+    "lon": -1.6071287,
+    "display_name": "Villava / Atarrabia, Iruñerria, Navarra, Navarra / Nafarroa, 31610, España"
   }
 }
