@@ -59,5 +59,10 @@
     "lat": 42.4661196,
     "lon": -2.4396676,
     "display_name": "Logroño, La Rioja, España"
+  },
+  "león": {
+    "lat": 42.5989995,
+    "lon": -5.5682413,
+    "display_name": "León, Castilla y León, España"
   }
 }
