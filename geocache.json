@@ -33,5 +33,16 @@
     "lat": 42.8230299,
     "lon": -1.614076,
     "display_name": "Burlada / Burlata, Iruñerria, Navarra, Navarra / Nafarroa, 31600, España"
+  },
+  "olite": {
+    "lat": 42.4813623,
+    "lon": -1.6512224,
+    "display_name": "Olite / Erriberri, Erdialdea, Navarra, Navarra / Nafarroa, 31390, España"
+  },
+  "nan": null,
+  "alsasua": {
+    "lat": 42.8949665,
+    "lon": -2.1685103,
+    "display_name": "Altsasu / Alsasua, Sakana, Navarra, Navarra / Nafarroa, 31800, España"
   }
 }
