@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[5]:
-
-
 import json
 import time
 import hashlib
@@ -14,11 +11,6 @@ from zoneinfo import ZoneInfo
 
 import pandas as pd
 import requests
-
-
-
-
-# In[8]:
 
 
 # ========= TZ =========
@@ -55,6 +47,33 @@ CSV_PATH = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQCgW2AsouOAq3YY65x7
 
 
 # ========= UTIL =========
+
+
+def get_text(row, col_name: str) -> str:
+    """
+    Devuelve texto limpio. Trata NaN/None/"" y 'nan' como vacío.
+    """
+    if col_name not in row:
+        return ""
+
+    v = row.get(col_name)
+
+    # NaN real de pandas
+    if pd.isna(v):
+        return ""
+
+    s = str(v).strip()
+    if not s:
+        return ""
+
+    # Por seguridad: si algo ya venía como string "nan"
+    if s.lower() == "nan":
+        return ""
+
+    return s
+
+
+
 def log(msg: str) -> None:
     ts = datetime.now(TZ).strftime("%Y-%m-%d %H:%M:%S")
     LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
