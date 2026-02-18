@@ -143,3 +143,5 @@
 [2026-02-18 16:29:40] Descartado (no geocodifica stop). viaje_id=66369D9D stop='nan' stops=['Olite', 'Pamplona', 'nan', 'Goizueta']
 [2026-02-18 16:29:40] Generado viajes.geojson: features=1 descartados=6
 [2026-02-18 16:29:41] Publicado en GitHub (push OK)
+[2026-02-18 16:53:39] Generado viajes.geojson: features=8 descartados=0
+[2026-02-18 16:53:39] Publicado en GitHub (push OK)

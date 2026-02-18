@@ -29,5 +29,20 @@
     "lat": 42.672094,
     "lon": -2.0314834,
     "display_name": "Estella-Lizarra, Estellerria, Navarra, Navarra / Nafarroa, 31200, España"
+  },
+  "sangüesa": {
+    "lat": 42.5754899,
+    "lon": -1.283336,
+    "display_name": "Sangüesa / Zangoza, Zangozerria, Navarra, Navarra / Nafarroa, España"
+  },
+  "goizueta": {
+    "lat": 43.171748,
+    "lon": -1.8640588,
+    "display_name": "Goizueta, Larraun-Leitzaldea, Navarra, Navarra / Nafarroa, 31754, España"
+  },
+  "lesaka": {
+    "lat": 43.2471212,
+    "lon": -1.7043191,
+    "display_name": "Lesaka, Baztan-Bidasoa, Navarra, Navarra / Nafarroa, España"
   }
 }
