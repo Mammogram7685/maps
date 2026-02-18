@@ -17,7 +17,6 @@ import requests
 TZ = ZoneInfo("Europe/Madrid")
 
 # ========= CONFIG =========
-CSV_PATH = Path("viajes.csv")   # ajusta si hace falta
 REPO_PATH = Path(".")                 # repo git clonado
 
 OUT_GEOJSON = REPO_PATH / "viajes.geojson"
@@ -247,40 +246,51 @@ def main():
     features = []
     descartados = 0
 
-    for _, row in df.iterrows():
-        destino = str(row.get(DESTINO_COL, "")).strip()
-        origen  = str(row.get(ORIGEN_COL, "")).strip()
-        p1      = str(row.get(PARADA1_COL, "")).strip()
-        p2      = str(row.get(PARADA2_COL, "")).strip()
+   for _, row in df.iterrows():
+    # 1) leer SIEMPRE con get_text (evita "nan")
+    destino = get_text(row, DESTINO_COL)
+    origen  = get_text(row, ORIGEN_COL)
+    p1      = get_text(row, PARADA1_COL)
+    p2      = get_text(row, PARADA2_COL)
 
-        if not destino:
-            descartados += 1
-            log(f"Descartado (sin destino). Id={row.get('Id')}")
-            continue
+    if not destino:
+        descartados += 1
+        log(f"Descartado (sin destino). Id={row.get('Id')}")
+        continue
 
-        if not origen:
-            descartados += 1
-            log(f"Descartado (sin origen). Id={row.get('Id')} destino='{destino}'")
-            continue
+    if not origen:
+        descartados += 1
+        log(f"Descartado (sin origen). Id={row.get('Id')} destino='{destino}'")
+        continue
 
-        destino = get_text(row, DESTINO_COL)
-        origen  = get_text(row, ORIGEN_COL)
-        p1      = get_text(row, PARADA1_COL)
-        p2      = get_text(row, PARADA2_COL)
+    # 2) definir aquí fecha/hora (antes de usarlas)
+    fecha_iso    = parse_fecha(row.get(FECHA_COL))
+    hora_salida  = parse_hora(row.get(SALIDA_COL))
+    hora_llegada = parse_hora(row.get(LLEGADA_COL))
 
+    # 3) leer viaje_id (y validar) antes de descartar por caducidad si lo quieres en logs
+    viaje_id = get_text(row, "viaje_id")
+    if not viaje_id:
+        descartados += 1
+        log(f"Descartado (sin viaje_id). Id={row.get('Id')}")
+        continue
 
-        if not viaje_vigente(fecha_iso, hora_salida):
-            descartados += 1
-            log(f"Descartado (caducado). Id={row.get('Id')} fecha={fecha_iso} salida={hora_salida}")
-            continue
-        stops_txt = [s for s in stops_txt if s and s.strip() and s.strip().lower() != "nan"]
+    # 4) caducidad
+    if not viaje_vigente(fecha_iso, hora_salida):
+        descartados += 1
+        log(f"Descartado (caducado). viaje_id={viaje_id} fecha={fecha_iso} salida={hora_salida}")
+        continue
 
-        stops_txt = [origen]
-        if p1:
-            stops_txt.append(p1)
-        if p2:
-            stops_txt.append(p2)
-        stops_txt.append(destino)
+    # 5) construir stops y filtrar basura
+    stops_txt = [origen]
+    if p1:
+        stops_txt.append(p1)
+    if p2:
+        stops_txt.append(p2)
+    stops_txt.append(destino)
+
+    stops_txt = [s for s in stops_txt if s and s.strip() and s.strip().lower() != "nan"]
+
 
         viaje_id = get_text(row, "viaje_id")
         if not viaje_id:
