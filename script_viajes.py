@@ -166,7 +166,7 @@ def viaje_vigente(fecha_iso: str, hora_salida_hhmm: str | None) -> bool:
 
 def obtener_ruta_osrm_multi(stops_geo):
     coords = ";".join([f"{p['lon']},{p['lat']}" for p in stops_geo])
-    url = f"{OSRM_URL}/{coords}?overview=full&geometries=geojson"
+    url = f"{OSRM_URL}/{coords}?overview=simplified&geometries=geojson"
     r = requests.get(url, timeout=20)
     r.raise_for_status()
     data = r.json()
