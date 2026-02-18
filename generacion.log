@@ -34,3 +34,11 @@
 [2026-02-18 12:36:13] Descartado (no geocodifica stop). viaje_id=8e77ef77d2 stop='nan' stops=['Pamplona', 'nan', 'nan', 'Pamplona']
 [2026-02-18 12:36:13] Descartado (no geocodifica stop). viaje_id=5d032fe5d1 stop='nan' stops=['Burlada', 'nan', 'nan', 'Pamplona']
 [2026-02-18 12:36:13] Generado viajes.geojson: features=0 descartados=6
+[2026-02-18 12:36:15] Publicado en GitHub (push OK)
+[2026-02-18 12:38:43] Descartado (no geocodifica stop). viaje_id=e65e7197c0 stop='nan' stops=['Tudela', 'Olite', 'nan', 'Pamplona']
+[2026-02-18 12:38:43] Descartado (no geocodifica stop). viaje_id=8e0a1bdce5 stop='nan' stops=['Pamplona', 'nan', 'nan', 'Cascante']
+[2026-02-18 12:38:43] Descartado (no geocodifica stop). viaje_id=c6338badef stop='nan' stops=['Pamplona', 'Alsasua', 'nan', 'Tafalla']
+[2026-02-18 12:38:43] Descartado (no geocodifica stop). viaje_id=2845817958 stop='nan' stops=['Estella', 'nan', 'nan', 'Sangüesa']
+[2026-02-18 12:38:43] Descartado (no geocodifica stop). viaje_id=8e77ef77d2 stop='nan' stops=['Pamplona', 'nan', 'nan', 'Pamplona']
+[2026-02-18 12:38:43] Descartado (no geocodifica stop). viaje_id=5d032fe5d1 stop='nan' stops=['Burlada', 'nan', 'nan', 'Pamplona']
+[2026-02-18 12:38:43] Generado viajes.geojson: features=0 descartados=6
