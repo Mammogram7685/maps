@@ -1,0 +1,33 @@
+{
+  "pamplona": {
+    "lat": 42.8181992,
+    "lon": -1.6440089,
+    "display_name": "Pamplona / Iruña, Iruñerria, Navarra, Navarra / Nafarroa, España"
+  },
+  "nan": null,
+  "tudela": {
+    "lat": 42.063972,
+    "lon": -1.6053391,
+    "display_name": "Tudela, Navarra, Navarra / Nafarroa, 31500, España"
+  },
+  "olite": {
+    "lat": 42.4813623,
+    "lon": -1.6512224,
+    "display_name": "Olite / Erriberri, Erdialdea, Navarra, Navarra / Nafarroa, 31390, España"
+  },
+  "tafalla": {
+    "lat": 42.5278279,
+    "lon": -1.6744823,
+    "display_name": "Tafalla, Erdialdea, Navarra, Navarra / Nafarroa, 31300, España"
+  },
+  "burlada": {
+    "lat": 42.8230299,
+    "lon": -1.614076,
+    "display_name": "Burlada / Burlata, Iruñerria, Navarra, Navarra / Nafarroa, 31600, España"
+  },
+  "estella": {
+    "lat": 42.672094,
+    "lon": -2.0314834,
+    "display_name": "Estella-Lizarra, Estellerria, Navarra, Navarra / Nafarroa, 31200, España"
+  }
+}
