@@ -164,3 +164,8 @@
 [2026-02-19 08:24:51] Descartado (sin viaje_id). Id=None
 [2026-02-19 08:24:55] Generado viajes.geojson: features=14 descartados=2
 [2026-02-19 08:24:55] Publicado en GitHub (push OK)
+[2026-02-19 10:53:47] Descartado (caducado). viaje_id=C49EB15C fecha=2026-02-19 salida=09:30
+[2026-02-19 10:53:55] Descartado (sin viaje_id). Id=None
+[2026-02-19 10:53:55] Descartado (sin viaje_id). Id=None
+[2026-02-19 10:54:01] Generado viajes.geojson: features=13 descartados=3
+[2026-02-19 10:54:01] Publicado en GitHub (push OK)
