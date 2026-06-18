@@ -169,3 +169,21 @@
 [2026-02-19 10:53:55] Descartado (sin viaje_id). Id=None
 [2026-02-19 10:54:01] Generado viajes.geojson: features=13 descartados=3
 [2026-02-19 10:54:01] Publicado en GitHub (push OK)
+[2026-06-18 09:48:38] Descartado (caducado). viaje_id=C49EB15C fecha=2026-02-19 salida=09:30
+[2026-06-18 09:48:38] Descartado (caducado). viaje_id=C49EB1XX fecha=2026-02-20 salida=12:00
+[2026-06-18 09:48:38] Descartado (caducado). viaje_id=C49EB133 fecha=2026-03-03 salida=09:30
+[2026-06-18 09:48:38] Descartado (caducado). viaje_id=36E34462 fecha=2026-03-03 salida=11:11
+[2026-06-18 09:48:38] Descartado (caducado). viaje_id=36E9E963 fecha=2026-05-02 salida=11:11
+[2026-06-18 09:48:38] Descartado (caducado). viaje_id=B1AAE26E fecha=2026-05-05 salida=10:00
+[2026-06-18 09:48:38] Descartado (caducado). viaje_id=66369D9D fecha=2026-03-02 salida=10:00
+[2026-06-18 09:48:38] Descartado (caducado). viaje_id=BF0C6988 fecha=2026-03-03 salida=10:00
+[2026-06-18 09:48:38] Descartado (caducado). viaje_id=F6AAF12D fecha=2026-05-02 salida=10:00
+[2026-06-18 09:48:38] Descartado (caducado). viaje_id=A69D12F3 fecha=2026-06-03 salida=15:10
+[2026-06-18 09:48:38] Descartado (sin viaje_id). Id=None
+[2026-06-18 09:48:38] Descartado (sin viaje_id). Id=None
+[2026-06-18 09:48:38] Descartado (caducado). viaje_id=5B6A1F97 fecha=2026-03-03 salida=11:11
+[2026-06-18 09:48:38] Descartado (caducado). viaje_id=9534861D fecha=2026-02-20 salida=12:30
+[2026-06-18 09:48:38] Descartado (caducado). viaje_id=CE57010A fecha=2026-03-02 salida=07:30
+[2026-06-18 09:48:38] Descartado (caducado). viaje_id=BC42E026 fecha=2026-02-26 salida=11:11
+[2026-06-18 09:48:40] Generado viajes.geojson: features=1 descartados=16
+[2026-06-18 09:48:41] Publicado en GitHub (push OK)

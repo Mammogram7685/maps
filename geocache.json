@@ -74,5 +74,10 @@
     "lat": 42.6522082,
     "lon": -1.3083408,
     "display_name": "Lumbier, Zangozerria, Navarra, Navarra / Nafarroa, 31440, España"
+  },
+  "berrioplano": {
+    "lat": 42.8620803,
+    "lon": -1.7059961,
+    "display_name": "Berrioplano / Berriobeiti, Iruñerria, Navarra, Navarra / Nafarroa, España"
   }
 }
